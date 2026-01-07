@@ -1,0 +1,187 @@
+/* ================================
+   GLOBAL THEME — SportSphere
+   ================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f9fc;
+  color: #1f2933;
+}
+
+/* ================================
+   LAYOUT
+   ================================ */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page {
+  min-height: calc(100vh - 70px);
+}
+
+/* ================================
+   NAVBAR
+   ================================ */
+
+.site-nav {
+  background: #1f8acb;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #e8f4fb;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-auth {
+  color: white;
+  border: 1px solid rgba(255,255,255,0.6);
+  padding: 6px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ================================
+   CARDS
+   ================================ */
+
+.card-surface {
+  background: white;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* ================================
+   TEXT
+   ================================ */
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-muted,
+.muted {
+  color: #6b7280;
+}
+
+/* ================================
+   BUTTONS
+   ================================ */
+
+.btn {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary-custom {
+  background: #1f8acb;
+  color: white;
+}
+
+.btn-primary-custom:hover {
+  background: #187ab3;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: #1f8acb;
+  border: 1px solid #1f8acb;
+}
+
+.btn-outline-primary:hover {
+  background: #e8f4fb;
+}
+
+/* ================================
+   TABLES (Leaderboard)
+   ================================ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 10px;
+  color: #374151;
+}
+
+td {
+  text-align: center;
+  padding: 14px 10px;
+  font-size: 14px;
+}
+
+thead {
+  background: #eef6fb;
+}
+
+tbody tr:hover {
+  background: #f8fbfe;
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+
+.site-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #6b7280;
+  font-size: 14px;
+}
